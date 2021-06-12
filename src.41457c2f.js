@@ -45,4 +45,4 @@ var r,e;module.exports=require("./factoryWithThrowingShims")();
 },{"preact/jsx-runtime":"yOgR","react":"AQ6k","./Dropzone":"QT0A","./ImagePreview":"Nxqf","./Image":"OZf4","./PartiallyControls":"QNJx","./App.scss":"mPTc"}],"QCba":[function(require,module,exports) {
 "use strict";var e=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(exports,"__esModule",{value:!0});var t=e(require("react")),r=e(require("react-dom")),u=require("./App");r.default.render(t.default.createElement(u.App,{}),document.getElementById("app"));
 },{"react":"AQ6k","react-dom":"AQ6k","./App":"NHn6"}]},{},["QCba"], null)
-//# sourceMappingURL=/src.41457c2f.js.map
+//# sourceMappingURL=src.41457c2f.js.map

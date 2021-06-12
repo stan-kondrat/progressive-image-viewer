@@ -1,0 +1,35 @@
+[package]
+name = "progressive-image-viewer"
+version = "0.1.0"
+authors = [ "Stanislav Kondratyuk <stan.kondrat@gmail.com>" ]
+edition = "2018"
+license = "GPL-3.0"
+
+[lib]
+crate-type = [ "cdylib" ]
+
+[dependencies]
+image = "0.23.14"
+num-complex = "0.4.0"
+wasm-bindgen = "0.2.74"
+js-sys = "0.3"
+hex = "0.4"
+# web-sys = "0.3.51"
+
+[dependencies.web-sys]
+version = "0.3"
+features = [
+  'console',
+#   'Document',
+#   'Element',
+#   'HtmlElement',
+#   'Node',
+#   'Window',
+]
+
+
+[package.metadata.wasm-pack.profile.release]
+# wasm-opt = ["-Oz", "--enable-mutable-globals"]
+wasm-opt = false
+
+
